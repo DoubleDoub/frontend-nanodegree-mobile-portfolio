@@ -1,5 +1,16 @@
 ## Website Performance Optimization portfolio project
 
+# Install Dependencies
+
+1. Install Node.js and Npm from [nodejs](http://nodejs.org/)
+1. Install The Grunt Command-line interface by running 
+
+	```bash
+	$> npm install -g grunt-cli
+	```
+1. cd into my project directory.
+1.
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository, inspect the code,

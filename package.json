@@ -1,0 +1,19 @@
+{
+  "name": "Project4",
+  "version": "0.0.1",
+  "description": "Project 4 Udacity Front-End Web Developer Nanodegree",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Wietse Wierda",
+  "license": "n/a",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
