@@ -1,12 +1,50 @@
 
+# Website Performance Optimization portfolio project
 
-# Install image-magick
+## Install dependencies
+
+This document assumes node and npm are already installed. If not, get it [here](https://nodejs.org/)
+
+
+### Install grunt command line tool
 
 ```bash
-$> apt-get install imagemagick
+$> npm install -g grunt-cli
+```
+
+### Install image-magick
+If you are an ubuntu user:
+
+```bash
+$> sudo apt-get install imagemagick
+```
+If you are a Mac user and have [homebrew](http://brew.sh/) installed:
+```bash
+$> brew install ImageMagick
+```
+Otherwise please visit [ImageMagick downloads page](http://www.imagemagick.org/script/binary-releases.php).
+
+If you are having issues with ImageMagick you can try a different engine. Please visit [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images) for installing GraphicsMagick and change line 12 in Gruntfile.js
+
+### Install node dependencies
+```
 $> npm install
 ```
 
+# For evaluation 
+
+I have already included the optimized version in this repo as a redundancy.
+
+Run grunt to build the optimized version of project. You can locate them in the ./dist folder. 
+```bash
+$> grunt
+```
+
+Please use this version when evaluating the result of my optimization efforts.
+
+In the src folder you will find all the source files. 
+
+To make it easier to locate my modifications I prepended most of them with the comment @Instructor.
 
 
 ## Website Performance Optimization portfolio project
